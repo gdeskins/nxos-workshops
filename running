@@ -1,7 +1,7 @@
 
 !Command: show running-config
-!Running configuration last done at: Fri Oct  2 22:42:09 2020
-!Time: Fri Oct  2 22:42:40 2020
+!Running configuration last done at: Fri Oct  2 23:38:55 2020
+!Time: Fri Oct  2 23:39:36 2020
 
 version 9.2(3) Bios:version  
 hostname dist-sw01
@@ -163,7 +163,7 @@ interface Ethernet1/3
   no shutdown
 
 interface Ethernet1/4
-  description L3 link to dist-rtr02
+  description Garry was here also
   no switchport
   ip address 172.16.252.5/30
   no ip ospf passive-interface
