@@ -14,6 +14,9 @@ vdc dist-sw01 id 1
   limit-resource m4route-mem minimum 58 maximum 58
   limit-resource m6route-mem minimum 8 maximum 8
 
+!
+!
+!
 feature telnet
 feature nxapi
 feature bash-shell

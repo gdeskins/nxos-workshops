@@ -1,6 +1,6 @@
 import os
 
-f = os.popen('mv -f /bootflash/autoconfig/adriani/running.latest /home/admin/nxos-workshops/running')
+f = os.popen('mv -f /bootflash/autoconfig/garry.deskins/running.latest /home/admin/nxos-workshops/running')
 who = f.read()
 f.close
 print "Result:", who
